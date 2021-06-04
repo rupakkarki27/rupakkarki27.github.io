@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+:root {
+  --primary-color: #82f9a1;
+}
+
+body {
+  background: linear-gradient(158.86deg, #1c2a34 10.36%, #111a20 49.58%, #111a20 49.58%);
+  font-family: "Jost";
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.navbar {
+  margin-top: 20px;
+}
+
+.navbar .logo {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.navbar .primary-nav {
+  text-decoration: none;
+  color: white;
+}
+
+.hero {
+  padding: 10px;
+}
+
+.hero .hero-text {
+  text-align: left;
+  padding: 20px;
+}
+
+.hero .hero-text .hero-primary {
+  color: var(--primary-color);
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
+}
+
+.hero .hero-text .hero-secondary {
+  color: var(--primary-color);
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 0px 0px 76px rgba(188, 251, 195, 0.3);
+}
+
+.hero .skills-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .skills-image .skill {
+  width: 80px;
+  margin-bottom: 30px;
+}
+
+.projects {
+  padding: 10px;
+}
+
+.projects .project-card {
+  text-align: left;
+  margin: 10px;
+  padding: 10px;
+  background: #1c2c35;
+  border-radius: 8px;
+}
+
+.projects .project-card .project-title {
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+.projects .project-card .project-desc {
+  font-size: 0.9em;
+}
+
+.projects .project-card .learn-more {
+  text-align: center;
+  height: 33px;
+  width: 115px;
+  padding-top: 25px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  border: 2px solid rgba(124, 201, 255, 0.41);
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.projects .project-card .learn-more a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact .contact-section {
+  text-align: center;
+  background: #1c2c35;
+  padding: 10px;
+}
+
+.contact .contact-section .contact-head {
+  color: var(--primary-color);
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.contact .contact-section .contact-text {
+  font-size: 0.9em;
+}
+
+.contact .contact-section .contact-icons .contact-icon {
+  padding: 10px;
+}
+
+.contact .contact-section .contact-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  color: #b8c1c7;
+  font-size: 0.9em;
+}
+
+.footer .footer-text span {
+  color: var(--primary-color);
+}
+
+@media only screen and (min-width: 1080px) {
+  .container {
+    margin: 10px 180px 10px 180px;
+  }
+  .navbar {
+    margin: 30px 80px 0px 80px;
+  }
+  .navbar .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar .container .nav-item {
+    text-align: center;
+    height: 33px;
+    width: 115px;
+    padding-top: 25px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(124, 201, 255, 0.41);
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar .container .nav-item a {
+    text-decoration: none;
+    color: white;
+  }
+  .hero .container {
+    padding: 0 100px 0 100px;
+  }
+  .projects .container {
+    padding: 0 150px 0 150px;
+  }
+  .projects .project-title {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .projects .project-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .projects .project-row .project-card {
+    width: 100%;
+  }
+  .contact .contact-section .contact-head {
+    font-size: 2em;
+  }
+  .footer {
+    padding-top: 10px;
+  }
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar .container {
+    margin: 10px 20px 0 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar .container .nav-item {
+    text-align: center;
+    height: 33px;
+    width: 115px;
+    padding-top: 25px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    border: 2px solid rgba(124, 201, 255, 0.41);
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .navbar .container .nav-item a {
+    text-decoration: none;
+    color: white;
+  }
+  .projects .container {
+    padding: 0 50px 0 50px;
+  }
+  .projects .project-title {
+    text-align: left;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+  .projects .project-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .projects .project-row .project-card {
+    width: 100%;
+  }
+  .contact .contact-section .contact-head {
+    font-size: 2em;
+  }
+  .footer {
+    padding-top: 10px;
+  }
+  .footer .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+}
+/*# sourceMappingURL=style.css.map */
