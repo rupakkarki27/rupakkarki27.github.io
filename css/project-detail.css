@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+:root {
+  --primary-color: #82f9a1;
+}
+
+.project-container {
+  margin-left: 40px;
+}
+
+.project-button {
+  color: black;
+  width: 300px;
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.download {
+  background-color: var(--primary-color);
+}
+
+.code {
+  background-color: white;
+}
+
+.project-detail .project-detail-head {
+  margin-top: 30px;
+}
+
+.project-detail .project-detail-head .project-detail-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.project-detail-subhead {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+.screens-category {
+  font-weight: 500;
+}
+
+.screenshots {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .project-container {
+    padding: 10px 40px 10px 40px;
+  }
+  .project-detail-head {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .project-desc-width {
+    width: 70%;
+  }
+  .screenshots {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+}
+/*# sourceMappingURL=project-detail.css.map */
